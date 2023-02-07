@@ -8,29 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="" method="POST" >
+	<form action="my-form" method="POST" >
 		
 	<div>
 		<label for="name">Name*</label>
-		<input type="text" name="name" id="name" placeholder="enter name">
+		<input type="text" name="name" id="name" placeholder="enter name" required>
 	</div> <br>
 
 	<div>
 		<label for="email">Email*</label>
-		<input type="email" name="email" id="email" placeholder="eg: abcd@gmail.com">
+		<input type="email" name="email" id="email" placeholder="eg: abcd@gmail.com" required>
 	</div> <br>
 
 	<div>
 	<label for="gender">Gender*</label>
-	<input type="radio" name="gender" id="gender">Male
+	<input type="radio" name="gender" id="gender" required>Male
 
 	<label for="gen_inp"></label>
-	<input type="radio" name="gender" id="gender">Female
+	<input type="radio" name="gender" id="gender" required>Female
 </div> <br>
 
 	<div> 
-			<label for="laptop">Laptop Brand:</label>
-			<select name="laptop" id="#laptop">
+			<label for="laptop">Laptop Brands</label>
+			<select name="laptop" id="laptop">
 				<option>select laptop brand</option>
 				<option>Apple</option>
 				<option>Asus</option>
@@ -40,23 +40,23 @@
 
 	<div>
 		<label for="age">Age*</label>
-		<input type="number" name="age" id="#age" placeholder="enter your age">
+		<input type="number" name="age" id="age" placeholder="enter your age" required>
 		
 	</div> <br>
 
 	<div>
 			<label for="dob">DOB*</label>
-			<input type="date" name="dob" id="#dob">
+			<input type="date" name="dob" id="dob" required>
 		</div> <br>
 
 	<div>
 			<label for="password">Password*</label>
-			<input type="password" name="#password" id="">
+			<input type="password" name="password" id="" required>
 		</div> <br>
 
 	<div>
 			<label for="submit_button"></label>
-			<button type="submit" name="submit_button" id="">submit button</button>
+			<button type="submit" name="submit_button" id="" required>submit button</button>
 		</div>
 		
 </form>
